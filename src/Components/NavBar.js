@@ -9,7 +9,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to={"home"}>
-                        A-Z Class
+                        Administrator
                     </Link>
                     <button
                         className="navbar-toggler"
