@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
-import ProgressCard from "./CardsList/ProgressCard";
-import Cards from "./CardsList/Cards";
+import ProgressCard from "./CardList/ProgressCard";
+import Cards from "./CardList/Cards";
 import { PartnerCard } from "./CardsList/PartnerCard";
 
 const Home = () => {
@@ -9,9 +9,9 @@ const Home = () => {
     <div>
       <NavBar />
       <ProgressCard />
-      <hr/>
+      <hr />
       <PartnerCard />
-      <hr/>
+      <hr />
       <Cards />
     </div>
   );
